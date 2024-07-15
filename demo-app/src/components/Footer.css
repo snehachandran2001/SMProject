@@ -1,0 +1,54 @@
+/* Footer.css */
+
+/* General footer styling */
+.footer {
+    background-color: #f8f9fa; /* Light background color */
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  /* Header text styling */
+  .footer .text-uppercase {
+    font-weight: bold;
+  }
+  
+  /* Link styling */
+  .footer .text-dark {
+    color: #343a40 !important; /* Dark color for text */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .footer .text-dark:hover {
+    color: #007bff !important; /* Blue color on hover */
+  }
+  
+  /* Padding for the main content container */
+  .footer .p-4 {
+    padding: 1.5rem !important; /* Increased padding for better spacing */
+  }
+  
+  /* Styling for the bottom section of the footer */
+  .footer .footer-bottom {
+    padding: 1rem !important; /* Padding for the bottom section */
+    background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent background color */
+  }
+  
+  /* Link styling */
+  .footer a {
+    text-decoration: none; /* No underline */
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Ensure footer links have a margin */
+  .footer ul {
+    padding: 0;
+    list-style-type: none; /* Remove bullet points */
+  }
+  
+  .footer ul li {
+    margin-bottom: 0.5rem; /* Spacing between links */
+  }
+  

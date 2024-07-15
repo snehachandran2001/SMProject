@@ -9,9 +9,12 @@ def fetch_reliance_stock_data(request):
     symbol = 'RELIANCE.NS'  # NSE symbol for Reliance Industries
     try:
         stock = yf.Ticker(symbol)
+
         data = stock.history(interval="1m", period="1d")  # Fetch 1-minute interval data for the last day
+        print(data)
         if not data.empty:
             latest_data = data.iloc[-1]
+            print(latest_data)
             stock_data = {
                 'date': latest_data.name.strftime('%Y-%m-%d %H:%M:%S'),
                 'open': latest_data['Open'],
